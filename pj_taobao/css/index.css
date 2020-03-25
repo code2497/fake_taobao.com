@@ -1,0 +1,698 @@
+@import 'reset.css';
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+  }
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    
+    /*字体抗锯齿渲染*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+  /* 头部信息样式 */
+#headMessage li{
+  font-size: 0;
+  float: left;
+  line-height: 35px;
+}
+
+#headMessage .arrow{
+  
+  color: #9c9c9c;
+}
+
+#headMessage a, span{
+  font-size: 12px;
+}
+
+#headMessage .iconfont{
+  font-size: 10px;
+  margin: 7px;
+}
+
+#headMessage .arrow{
+  font-size: 7px;
+}
+
+#headMessage .login{
+  color: #F22e00;
+}
+
+#headMessage strong{
+  color: #F22e00;
+}
+
+#headMessage .store{
+  color: #f40;
+}
+
+#headMessage .hr{
+  margin: 5px;
+  color: #DDD;
+}
+
+/* 头部信息样式 */
+
+/* 头部广告 */
+
+#headAd a{
+  display: block;
+}
+
+#headAd{
+  background-color: #ffefc3;
+}
+
+#headAd img{
+  height: 100px;
+  width: 1190px;
+}
+
+/* 头部广告 */
+
+
+/* 搜索栏 */
+
+#headSearch{
+  background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 10px;
+}
+
+#headSearch h1 a{
+  display: block;
+  margin-top: 10px;
+  width: 190px; 
+  height: 58px;
+  background: url(../images/logo.png) center no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#headSearch .QRcode{
+  position: relative;
+  width : 72px;
+  height: 86px;
+  border: 1px solid #eee;
+  text-align: center;
+  margin-right: 110px;
+}
+
+#headSearch .QRcode .close{
+  font-size: 12px;
+  position: absolute;
+  border: 1px solid #eee;
+  width: 14px;
+  height: 14px;
+  color: #ddd;
+  left: -16px;
+  top: -1px;
+}
+
+#headSearch .QRcode img{
+  width: 62px;
+  height: 62px;
+}
+
+#headSearch .search{
+  width: 630px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#headSearch .searchTab{
+  margin-left: 17px;
+  height: 22px;
+}
+
+#headSearch li{
+  margin-right: 4px;
+  float: left;
+  width: 36px;
+  cursor: pointer;
+  color: #f40;
+  text-align: center;
+  line-height: 22px;
+}
+
+#headSearch .active{
+  color: #fff;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #ff9000, #ff5000);
+  border-radius: 6px 6px 0 0;
+}
+
+#headSearch .searchBox{
+  position: relative;
+  width: 554px;
+  height: 40px;
+  border: 2px solid #ff5000;
+  border-radius: 20px 0 0 20px;
+  border-right: none;
+}
+
+#headSearch input{
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 490px;
+  height: 36px;
+  outline: none;
+  border: none;
+  z-index: 2;
+  text-indent: 10px;
+}
+
+#headSearch .greyText{
+  color: #9c9c9c;
+}
+
+#headSearch .placeholder{
+  z-index: 0;
+  position: absolute;
+  top: 6px;
+  left: 14px;
+  width: 200px;
+}
+
+#headSearch .camera{
+  font-size: 28px;
+  color: #9c9c9c;
+  padding-right: 16px;
+}
+
+#headSearch button{
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  color: #eee;
+}
+
+#headSearch .subbtn{
+  line-height: 44px;
+  font-size: 18px;
+  background-image: linear-gradient(to right,#ff9000,#ff5000);
+  width: 74px;
+  border-radius: 0 20px 20px 0;
+  text-align: center;
+}
+
+#headSearch .hotKey{
+  line-height: 25px;
+}
+
+/* 搜索栏 */ 
+
+
+/* 红色导航 */
+
+#redNav h2{
+  width: 190px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background-color: #f50;
+}
+
+
+#redNav ul{
+  margin-left: 190px;
+  height: 30px;
+  background-image: linear-gradient(to right,#ff9000,#ff5000);
+  position: relative;
+}
+
+
+
+#redNav ul li{
+  position: relative;
+  float: left;
+  padding: 0 5px;
+  margin: 0 7px;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 30px;
+
+}
+
+#redNav ul li a{
+  color: #fff;
+  font-weight: bold;
+}
+
+#redNav ul li .bigSize{
+  font-size: 16px;
+}
+
+#redNav .line{
+  margin: 0;
+  padding: 0;
+}
+
+#redNav ul li:hover:before{
+  content: '';
+  position: absolute;
+  width: 23px;
+  height: 13px;
+  background-image: url(../images/ico_01.gif);
+  top: -13px;
+  left: 50%;
+  margin-left: -12px;
+}
+
+/* 红色导航 */
+
+
+/* 首屏内容 */
+
+/* 左边部分 */
+/* 侧边栏 */
+#firstScreen .sideBar{
+  width: 188px;
+  padding-bottom: 4px;
+  background-color: #ffffff;
+  border: 1px solid #f50;
+  padding-top: 5px;
+}
+
+#firstScreen .sideBar .iconfont{
+  font-size: 12px;
+}
+
+
+
+#firstScreen .sideBar li{
+  color: #999;
+  font-size: 14px;
+  padding-left: 20px;
+  height: 32px;
+  line-height: 32px;
+}
+
+
+#firstScreen .FSleft{
+  width: 890px;
+  
+}
+
+/* 图片容器1 */
+#firstScreen .FSimgBox1{
+  width: 690px;
+  height: 282px;
+}
+
+.FSleft .imgLeft{
+  position: relative;
+}
+
+.FSleft .arrowChange{
+  position: absolute;
+  line-height: 30px;
+  width: 20px;
+  color: #fff;
+  background-color: rgba(0,0, 0, 0.3);
+  display: none;
+}
+
+.FSleft .imgLeft .leftBtn{
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 0 15px 15px 0;
+  
+}
+
+.FSleft .imgLeft .rightBtn{
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  border-radius: 15px 0 0 15px;
+}
+
+.FSleft  .imgLeft:hover .arrowChange{
+  display: block;
+}
+
+.FSimgBox1 .adRight{
+  width: 160px;
+  height: 280px;
+}
+
+.FSimgBox1 .imgLeft .cirBtn span{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.FSimgBox1 .imgLeft .cirBtn{
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 0;
+  background-color: rgba(255,255,255,0.3);
+  padding: 3px 0;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+/* 图片容器2 */
+#firstScreen .FSimgBox2{
+  width: 690px;
+  height: 220px;
+}
+
+.FSimgBox2 .imgLeft .imgTitle{
+    height: 20px;
+    width: 520px;
+}
+
+.FSimgBox2 .imgLeft .imgTitle .bg{
+  background: url(../images/title_bg.png) no-repeat left;
+  padding-left: 136px;
+}
+
+.FSimgBox2 .imgLeft .imgTitle .line{
+  height: 3px;
+  width: 520px;
+  background-color: red;
+}
+
+.FSimgBox2 .imgLeft .mainImg{
+  position: relative;
+  width: 520px;
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #fff;
+  
+}
+
+.FSimgBox2 .imgLeft .mainImg img{
+  margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 淘宝头条 */
+#firstScreen .headNews{
+  width: 890px;
+  height: 100px;
+  background-color: #fff;
+  margin-top: 10px;
+  padding:13px 13px 13px 20px;
+  box-sizing: border-box;
+}
+
+.headNews .header{
+  margin-top: 15px;
+}
+
+.headNews .header p{
+  line-height: 24px;
+  color:#999;
+}
+
+.headNews .newsDetail{
+  width: 680px;
+  height: 73px;
+  position: relative;
+}
+
+.headNews .newsDetail a img{
+  width: 130px;
+  height: 70px;
+}
+
+.headNews .newsDetail h4{
+  line-height: 28px;
+  font-size: 16px;
+  color: #333;
+  font-weight: normal;
+}
+
+.headNews .newsDetail p{
+  font-size: 14px;
+  line-height: 18px;
+  color: #999;
+}
+
+.headNews .newsDetail .more{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #999;
+}
+
+.headNews .newsDetail .newsImg{
+  margin-right: 15px;
+}
+
+
+.headNews .header h3{
+  background: url(../images/news_logo.png) no-repeat;
+  width: 129px;
+  height: 26px;
+  text-indent: -9999px;
+}
+
+
+/* 右边部分 */
+#firstScreen .FSright{
+  margin-top: 10px;
+  width: 290px;
+  height: 620px;
+  background-color: #fff;
+}
+
+/* 用户专区 */
+.FSright .user{
+  background: url(../images/user_bg.png);
+  height: 140px;
+  padding-top: 5px;
+}
+
+.FSright .user .avater{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.FSright .user p{
+  text-align: center;
+}
+
+.FSright .user .goldClub{
+  text-align: center;
+  font-size: 0;
+}
+
+.FSright .user .goldClub a{
+  font-size: 12px;
+  display: inline-block;
+  margin: 0 2px;
+  background: #ffe4dc url(../images/ico.png) 0 -572px no-repeat;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-radius: 9px;
+}
+
+.FSright .user .userBtn{
+  text-align: center;
+  padding-top: 12px;
+}
+
+.FSright .user .userBtn button{
+  margin: 0 4px;
+  width: 75px;
+  height: 25px;
+  background-image: linear-gradient(to right,#ff9000,#ff5000);
+  border-radius: 4px;
+  font-weight: bold;
+  line-height: 25px;
+  color: #fff;
+}
+
+.FSright .user .userBtn .login{
+  width: 92px;
+}
+
+
+/* 举报 */
+.FSright .tipOff a{
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #ffe4dc;
+  color: #f40;
+}
+
+.FSright .tipOff .iconfont{
+  font-size: 12px;
+  position: relative;
+  top: 0;
+  left: 30px;
+}
+
+
+
+/* 公告 */
+.FSright .notice .Title{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 0;
+}
+
+.FSright .notice{
+	height: 108px;
+}
+
+.FSright .notice .Title li{
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 4px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.FSright .notice .noticeMes{
+  text-align: center;
+  padding-top: 10px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.FSright .notice .noticeMes a{
+  display:inline-block;
+  margin: 0 2px;	
+}
+
+.FSright .notice .noticeMes .longMes{
+  width: 266px;
+  margin: 0;
+  color: #f40;
+}
+
+/* 小图标 */
+.FSright .icon{
+	width: 100%;
+	height: 231px;
+	background-color: #fff;
+	table-layout: fixed;
+}
+
+.FSright .icon td{
+	border: 1px solid #f4f4f4;
+	text-align: center;
+}
+
+.FSright .icon td span{
+	display: block;
+	margin: 0 auto;
+	height: 24px;
+	width: 24px;
+	background: url(../images/ico.png) no-repeat;
+}
+
+.FSright .icon td i{
+	line-height: 34px;
+}
+
+
+.FSright .icon .item1 span{
+	background-position: 0 0; 
+}
+.FSright .icon .item2 span{
+	background-position: 0 -87px; 
+}
+.FSright .icon .item3 span{
+	background-position: 0 -44px; 
+}
+.FSright .icon .item4 span{
+	background-position: 0 -132px; 
+}
+.FSright .icon .item5 span{
+	background-position: 0 -176px; 
+}
+.FSright .icon .item6 span{
+	background-position: 0 -220px; 
+}
+.FSright .icon .item7 span{
+	background-position: 0 -264px; 
+}
+.FSright .icon .item8 span{
+	background-position: 0 -308px; 
+}
+.FSright .icon .item9 span{
+	background-position: 0 -352px; 
+}
+.FSright .icon .item10 span{
+	background-position: 0 -396px; 
+}
+.FSright .icon .item11 span{
+	background-position: 0 -440px; 
+}
+.FSright .icon .item12 span{
+	background-position: 0 -484px; 
+}
+
+
+.app .appIcon li{
+	display: inline-block;
+	margin: 0 10px 8px 10px;
+}
+
+.app .appIcon li a img{
+	width: 32px;
+	height: 32px;
+}
+
+.app .text h3{
+	margin-left: 10px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.app .text a{
+	
+	margin-right: 10px;
+	line-height: 30px;
+}
+
+
+
+
+/* 首屏内容 */
